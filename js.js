@@ -16,6 +16,7 @@ let courses = [
  let requiredRange3 = [200, null];
 
  //Функция для пересекающихся интервалов
+ //результат функции - массив с отфильтрованными объектами по цене
  let filterResult = courses.filter(function(currentValue) {
 
     //переменные для удобства
