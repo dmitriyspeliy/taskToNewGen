@@ -16,7 +16,7 @@ let courses = [
  let requiredRange3 = [200, null];
 
  //Функция для пересекающихся интервалов
- //результат функции - массив с отфильтрованными объектами по цене
+ //результат функции - массив с отфильтрованными объектами по цене. Вариант для requiredRange1
  let filterResult1 = courses.filter(function(currentValue) {
 
     //переменные для удобства
@@ -51,7 +51,9 @@ let courses = [
 
  //Вывод
  console.log(filterResult1);
-
+    
+ //Функция для пересекающихся интервалов
+ //результат функции - массив с отфильтрованными объектами по цене. Вариант для requiredRange2
  let filterResult2 = courses.filter(function(currentValue) {
 
     //переменные для удобства
@@ -86,7 +88,9 @@ let courses = [
  });
   //Вывод
   console.log(filterResult2);
- //Функция для пересекающихся интервалов. Вариант requiredRange3
+
+   //Функция для пересекающихся интервалов
+   //результат функции - массив с отфильтрованными объектами по цене. Вариант для requiredRange3
    let filterResult3 = courses.filter(function(currentValue) {
 
     //переменные для удобства
